@@ -1,15 +1,14 @@
 
 let btn=document.querySelector('button');
 let div=document.querySelector('div');
-div.addEventListener('click', () =>{
+
+div.addEventListener('click', () => {
     if(btn.style.display === 'none'){
          btn.style.display='block';
     }
     else{
          btn.style.display='none';
-                                
-                                
-              }          I
+     }          I
 })
 
 document.getElementById("reset").onclick = function() {

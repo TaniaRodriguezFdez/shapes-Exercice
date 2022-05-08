@@ -9,7 +9,7 @@ body{
 }
 
 header{
-
+  
     position: absolute;
     left: 50%;
     top: 35%;
@@ -33,13 +33,14 @@ main{
 }
 
 .btn-triangular{
-
+ 
     width: 0;
     height: 0;
     border-right: 50px solid transparent;
     border-Left: 50px solid transparent;
     border-bottom: 100px solid ;
     color: chartreuse;
+    
 }
 
 .btn-cuadrado{
@@ -50,31 +51,43 @@ main{
     background: red;
 }
 
-.btn-redondo{
+.btn-cuadrado:hover{
 
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;    
+    background-color: rgb(53, 147, 78);
+}
+
+.btn-cuadrado:active{
+    transform: translateY(-12px);
 }
 
 .btn-redondo{
 
-    background-color:rgb(53, 35, 118);  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(53, 35, 118);      
 }
 
 .btn-redondo:hover{ 
 
     background-color:rgb(225, 37, 69);  
 }
-  
-.btn-cuadrado:hover{
 
-    background-color: rgb(53, 147, 78);
+.btn-redondo:active{
+    
+    transform: translateY(-12px);
 }
+  
 
 .btn-triangular:hover{
+ 
+    color:cornflowerblue;
+  
+}
 
-  color:cornflowerblue
+.btn-triangular:active{
+
+    transform: translateY(-12px);
 
 }
 
